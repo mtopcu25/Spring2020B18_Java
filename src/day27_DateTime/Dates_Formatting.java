@@ -1,4 +1,5 @@
 package day27_DateTime;
+
 import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 
@@ -16,9 +17,8 @@ public class Dates_Formatting {
         /*
         create a date called birthDay: month/Days/year
                 eX: 2020 04  23
-                    Aprl/23/20
+                    Apr/23/20
          */
-
 
 
         DateTimeFormatter dtf2 =DateTimeFormatter.ofPattern("E MMMM/dd/yy");
@@ -31,6 +31,7 @@ public class Dates_Formatting {
         LocalDate date3 =LocalDate.now();
 
         System.out.println( date3.format(dtf2) );
+
 
 
     }

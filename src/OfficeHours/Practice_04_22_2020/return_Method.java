@@ -3,9 +3,9 @@ package OfficeHours.Practice_04_22_2020;
 public class return_Method {
 
     public static void main(String[] args) {
-        //int a = sum(10,20);  // void
+       //int a = sum(10,20);  // void
 
-        int num1 = sum2(500, 600);  // return method
+       int num1 = sum2(500, 600);  // return method
 
         System.out.println(num1);
 
@@ -27,6 +27,8 @@ public class return_Method {
         System.out.println(name2);
 
         System.out.println( name.equals(name2) );
+
+        System.out.println( reverse(name)  );
 
 
     }

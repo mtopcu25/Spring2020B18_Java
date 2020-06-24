@@ -30,7 +30,7 @@ public class void_Method {
         Vote(35, false);
 
         System.out.println("=============================");
-        // 28
+            // 28
         EligibleToBuCig(17);
 
     }
@@ -45,7 +45,7 @@ public class void_Method {
     }
 
     // write a function that can identify if a p[reson is eligible to vote
-    // MUST know: age, USCitizen
+                // MUST know: age, USCitizen
 
     public static void Vote(int age, boolean USCitizen){
 
@@ -60,7 +60,7 @@ public class void_Method {
 
 
     // write a method if a person is eligle to bu cig
-    // MUST know: age
+        // MUST know: age
 
     public static void EligibleToBuCig(int age){
         if(age > 18){
@@ -75,3 +75,9 @@ public class void_Method {
 
 
 }
+
+
+
+
+
+

@@ -4,7 +4,9 @@ public class Find_Minimum {
 
     /*
     1. write a return method that can return the minimum number from an int array
+
 	2. write a return method that can return the minimum number from a double array
+
 					NOTE: apply method overloading,  DO NOT USE SORT METHOD.
      */
 
@@ -28,7 +30,7 @@ public class Find_Minimum {
         System.out.println(  minimum(arr2)  );
 
         double[] arr3 = { 55.5 , 10.5, 1.5, 2.5 , 0, -10.25 };
-        double num1 =   minimum(arr3);
+         double num1 =   minimum(arr3);
 
         System.out.println(num1);
 

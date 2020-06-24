@@ -1,6 +1,5 @@
 package day27_DateTime;
 
-
 import java.time.LocalDate;
 
 public class Dates {
@@ -16,7 +15,7 @@ public class Dates {
         System.out.println(birthday);
 
         // isAfter(date2)
-        boolean result1 =    date1.isAfter(birthday);
+         boolean result1 =    date1.isAfter(birthday);
         System.out.println(result1);
 
         // isBefore(date2)

@@ -4,7 +4,7 @@ public class MethodOverloading {
 
 
     public static void main(String[] args) {
-        method(10);  //"Original method"
+       method(10);  //"Original method"
         method(10.0); // "Overloaded method"
     }
 
