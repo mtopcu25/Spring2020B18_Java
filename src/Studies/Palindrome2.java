@@ -9,7 +9,7 @@ public class Palindrome2 {
     public static void main(String[] args) {
 
         Scanner scan = new Scanner(System.in);
-        System.out.println("enter word here: ");
+        System.out.println("enter any word here: ");
         String input = scan.next();
 
         palindrome(input);

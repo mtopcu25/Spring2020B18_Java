@@ -32,6 +32,7 @@ public class Find_Minimum {
         double[] arr3 = { 55.5 , 10.5, 1.5, 2.5 , 0, -10.25 };
          double num1 =   minimum(arr3);
 
+
         System.out.println(num1);
 
     }

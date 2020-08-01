@@ -18,6 +18,9 @@ public class NextLine {
         System.out.println("You entered: "+sentensce);
 
 
+
+
+
     }
 
 

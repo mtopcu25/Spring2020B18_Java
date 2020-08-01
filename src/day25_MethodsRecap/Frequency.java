@@ -1,6 +1,6 @@
 package day25_MethodsRecap;
 
-public class Frequency {
+public class  Frequency {
 
     public static void main(String[] args) {
         String str1 = "javajavajavajavajava"; //AA
